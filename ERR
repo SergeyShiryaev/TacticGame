@@ -1,0 +1,12 @@
+13
+/ - 1585
+main.dart.js - Не удается привязать параметр "Uri". Не удается преобразовать значение "http://127.0.0.1:8090main.dart.js" в тип "System.Uri". Ошибка: "Недопустимое значение URI: Указан недопустимый порт."
+flutter_bootstrap.js - Не удается привязать параметр "Uri". Не удается преобразовать значение "http://127.0.0.1:8090flutter_bootstrap.js" в тип "System.Uri". Ошибка: "Недопустимое значение URI: Указан недопустимый порт."
+assets/AssetManifest.bin.json - Не удается привязать параметр "Uri". Не удается преобразовать значение "http://127.0.0.1:8090assets/AssetManifest.bin.json" в тип "System.Uri". Ошибка: "Недопустимое значение URI: Указан недопустимый порт."
+assets/fonts/MaterialIcons-Regular.otf - Не удается привязать параметр "Uri". Не удается преобразовать значение "http://127.0.0.1:8090assets/fonts/MaterialIcons-Regular.otf" в тип "System.Uri". Ошибка: "Недопустимое значение URI: Указан недопустимый порт."
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAX\AppData\Local\Programs\Python\Python311\Lib\http\server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "C:\Users\MAX\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+PermissionError: [WinError 10013] Сделана попытка доступа к сокету методом, запрещенным правами доступа
