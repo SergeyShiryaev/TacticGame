@@ -1,5 +1,5 @@
-name: my_app
-description: "Tactics (Taktika): 33-hole peg solitaire for Android, iOS and web."
+name: tactics
+description: "Tactics : 33-hole peg solitaire for Android, iOS and web."
 publish_to: "none"
 version: 1.0.0+1
 
@@ -11,11 +11,36 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  flutter_native_splash: ^2.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_native_splash:
+  color: "#1e3a8a"
+  image: assets/splash/splash.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    image: assets/splash/splash_android12.png
+    color: "#051854"
+    icon_background_color: "#051854"
+    image_dark: assets/splash/splash_android12_dark.png
+    color_dark: "#020a23"
+    icon_background_color_dark: "#020a23"
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: assets/splash/splash.png
+  adaptive_icon_background: "#1e3a8a"
+  adaptive_icon_foreground: assets/splash/splash.png
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/splash/

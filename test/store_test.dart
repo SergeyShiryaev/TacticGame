@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:my_app/domain/board.dart';
-import 'package:my_app/domain/game_result.dart';
-import 'package:my_app/domain/game_store.dart';
+import 'package:tactics/domain/board.dart';
+import 'package:tactics/domain/game_result.dart';
+import 'package:tactics/domain/game_store.dart';
 
 int cell(int row, int col) => row * 7 + col;
 

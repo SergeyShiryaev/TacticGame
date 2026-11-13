@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:my_app/domain/board.dart';
-import 'package:my_app/domain/board_geometry.dart';
-import 'package:my_app/domain/game_store.dart';
-import 'package:my_app/domain/move.dart';
+import 'package:tactics/domain/board.dart';
+import 'package:tactics/domain/board_geometry.dart';
+import 'package:tactics/domain/game_store.dart';
+import 'package:tactics/domain/move.dart';
 
 /// Индекс ячейки сетки 7x7 (row-major, шаг строки = 7).
 int cell(int row, int col) => row * 7 + col;

@@ -1,4 +1,4 @@
-# Taktika (Тактика)
+# Tactics
 
 Peg solitaire on the classic 33-hole cross board — Flutter, no third-party packages.
 Пасьянс «Тактика» на классическом поле из 33 ячеек. Только Flutter SDK, без сторонних пакетов.

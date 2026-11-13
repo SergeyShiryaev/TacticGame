@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:my_app/app/app_controller.dart';
-import 'package:my_app/core/key_value_storage.dart';
-import 'package:my_app/domain/game_result.dart';
-import 'package:my_app/features/settings/settings_controller.dart';
-import 'package:my_app/features/stats/stats_controller.dart';
+import 'package:tactics/app/app_controller.dart';
+import 'package:tactics/core/key_value_storage.dart';
+import 'package:tactics/domain/game_result.dart';
+import 'package:tactics/features/settings/settings_controller.dart';
+import 'package:tactics/features/stats/stats_controller.dart';
 
 int cell(int row, int col) => row * 7 + col;
 

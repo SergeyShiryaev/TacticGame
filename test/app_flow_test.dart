@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:my_app/app/app.dart';
-import 'package:my_app/app/app_controller.dart';
-import 'package:my_app/core/key_value_storage.dart';
+import 'package:tactics/app/app.dart';
+import 'package:tactics/app/app_controller.dart';
+import 'package:tactics/core/key_value_storage.dart';
 
 void main() {
   testWidgets('меню → игра → ход → отмена', (WidgetTester tester) async {
